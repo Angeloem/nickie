@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Frame</class>
+ <widget class="QFrame" name="Frame">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1015</width>
+    <height>754</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Frame</string>
+  </property>
+  <property name="frameShape">
+   <enum>QFrame::StyledPanel</enum>
+  </property>
+  <property name="frameShadow">
+   <enum>QFrame::Raised</enum>
+  </property>
+  <property name="lineWidth">
+   <number>5</number>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>70</x>
+     <y>160</y>
+     <width>341</width>
+     <height>541</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLineEdit" name="lineEdit_2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>130</y>
+      <width>281</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>                         </string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>60</y>
+      <width>281</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>List of Customers</string>
+    </property>
+   </widget>
+   <widget class="QListWidget" name="listWidget">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>170</y>
+      <width>281</width>
+      <height>281</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_2">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>130</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>customer-image</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_3">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>130</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Total price</string>
+    </property>
+   </widget>
+   <widget class="QFrame" name="frame_3">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>170</y>
+      <width>281</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label_3">
+     <property name="geometry">
+      <rect>
+       <x>-3</x>
+       <y>6</y>
+       <width>81</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../../../../../../../../../../../home/trustgodbro/Desktop/img_avatar2.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_6">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>20</y>
+       <width>101</width>
+       <height>27</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>20000</string>
+     </property>
+    </widget>
+    <zorder>label_3</zorder>
+    <zorder>lineEdit_6</zorder>
+    <zorder>dial</zorder>
+   </widget>
+   <widget class="QFrame" name="frame_6">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>240</y>
+      <width>281</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label_6">
+     <property name="geometry">
+      <rect>
+       <x>-3</x>
+       <y>6</y>
+       <width>81</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../../../../../../../../../../../home/trustgodbro/Desktop/img_avatar5.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_9">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>20</y>
+       <width>101</width>
+       <height>27</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>5000</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QFrame" name="frame_4">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>310</y>
+      <width>281</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label_4">
+     <property name="geometry">
+      <rect>
+       <x>-3</x>
+       <y>6</y>
+       <width>81</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../../../../../../../../../../../home/trustgodbro/Desktop/img_avatar3.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_7">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>20</y>
+       <width>101</width>
+       <height>27</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>5000</string>
+     </property>
+    </widget>
+    <zorder>label_4</zorder>
+    <zorder>lineEdit_7</zorder>
+    <zorder>listWidget</zorder>
+   </widget>
+   <widget class="QFrame" name="frame_5">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>380</y>
+      <width>281</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::StyledPanel</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Raised</enum>
+    </property>
+    <widget class="QLabel" name="label_5">
+     <property name="geometry">
+      <rect>
+       <x>-3</x>
+       <y>6</y>
+       <width>81</width>
+       <height>61</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string/>
+     </property>
+     <property name="pixmap">
+      <pixmap>../../../../../../../../../../../home/trustgodbro/Desktop/img_avatar4.png</pixmap>
+     </property>
+     <property name="scaledContents">
+      <bool>true</bool>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="lineEdit_8">
+     <property name="geometry">
+      <rect>
+       <x>170</x>
+       <y>20</y>
+       <width>101</width>
+       <height>27</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>20000</string>
+     </property>
+    </widget>
+   </widget>
+   <zorder>lineEdit_2</zorder>
+   <zorder>pushButton</zorder>
+   <zorder>pushButton_3</zorder>
+   <zorder>pushButton_2</zorder>
+   <zorder>listWidget</zorder>
+   <zorder>pushButton_2</zorder>
+   <zorder>pushButton_3</zorder>
+   <zorder>frame_3</zorder>
+   <zorder>frame_6</zorder>
+   <zorder>frame_4</zorder>
+   <zorder>frame_5</zorder>
+  </widget>
+  <widget class="QFrame" name="frame_2">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>160</y>
+     <width>531</width>
+     <height>541</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QTreeWidget" name="treeWidget">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>130</y>
+      <width>261</width>
+      <height>291</height>
+     </rect>
+    </property>
+    <property name="autoScrollMargin">
+     <number>16</number>
+    </property>
+    <column>
+     <property name="text">
+      <string>items</string>
+     </property>
+    </column>
+    <column>
+     <property name="text">
+      <string>Price</string>
+     </property>
+    </column>
+    <item>
+     <property name="text">
+      <string>Margarine</string>
+     </property>
+     <property name="text">
+      <string>25000</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Coke</string>
+     </property>
+     <property name="text">
+      <string>2000</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Lato Milk</string>
+     </property>
+     <property name="text">
+      <string>12000</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Cup</string>
+     </property>
+     <property name="text">
+      <string>1500</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>item1</string>
+     </property>
+     <property name="text">
+      <string>1000</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Banana</string>
+     </property>
+     <property name="text">
+      <string>500</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mango</string>
+     </property>
+     <property name="text">
+      <string>300</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Ice Cream</string>
+     </property>
+     <property name="text">
+      <string>1250</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLineEdit" name="lineEdit_4">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>460</y>
+      <width>113</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgb(66, 183, 255);</string>
+    </property>
+    <property name="text">
+     <string>50000</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>250</x>
+      <y>460</y>
+      <width>101</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>TOTAL PRICE</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>130</y>
+      <width>201</width>
+      <height>181</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../../../../../../../../../../../home/trustgodbro/Desktop/img_avatar2.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>60</y>
+      <width>201</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Customer-Image</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_5">
+    <property name="geometry">
+     <rect>
+      <x>240</x>
+      <y>60</y>
+      <width>261</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>List of iteme Taken</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QPushButton" name="pushButton_6">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>40</y>
+     <width>891</width>
+     <height>71</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">color: rgb(35, 141, 255);
+font: 75 14pt &quot;Ubuntu&quot;;</string>
+   </property>
+   <property name="text">
+    <string>AUTOMATIC PRICE DETECTION SYSTEM </string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
